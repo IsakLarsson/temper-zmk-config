@@ -160,7 +160,7 @@
         };
 
         combo_del_word {
-            bindings = <&kp LS(BACKSPACE)>;
+            bindings = <&kp LC(BACKSPACE)>;
             key-positions = <17 18>;
             require-prior-idle-ms = <100>;
             layers = <0>;
