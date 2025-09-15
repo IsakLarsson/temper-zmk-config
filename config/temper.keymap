@@ -123,12 +123,6 @@
             layers = <0>;
         };
 
-        combo_maximize_yabai {
-            bindings = <&kp LS(LA(M))>;
-            key-positions = <27 28>;
-            layers = <5>;
-        };
-
         combo_arrow {
             bindings = <&macro_arrow>;
             key-positions = <13 12>;
@@ -166,7 +160,7 @@
         };
 
         combo_del_word {
-            bindings = <&kp LA(BACKSPACE)>;
+            bindings = <&kp LS(BACKSPACE)>;
             key-positions = <17 18>;
             require-prior-idle-ms = <100>;
             layers = <0>;
@@ -357,10 +351,10 @@
 
         nav_layer {
             bindings = <
-&kp TAB         &trans           &trans         &trans    &trans         &kp LC(H)  &kp LC(J)  &kp LC(K)  &kp LC(L)  &trans
-&sk LEFT_SHIFT  &sk LCTRL        &sk LALT       &sk LGUI  &trans         &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp ESC
-&kp C_VOL_DN    &kp C_VOLUME_UP  &kp LS(LC(C))  &none     &kp LS(LC(V))  &trans     &kp LC(D)  &kp LC(U)  &trans     &trans
-                                 &trans         &trans    &trans         &trans     &trans     &trans
+&kp TAB         &trans           &trans     &trans    &trans         &kp LC(H)  &kp LC(J)  &kp LC(K)  &kp LC(L)  &trans
+&sk LEFT_SHIFT  &sk LCTRL        &sk LALT   &sk LGUI  &trans         &kp LEFT   &kp DOWN   &kp UP     &kp RIGHT  &kp ESC
+&kp C_VOL_DN    &kp C_VOLUME_UP  &kp LC(C)  &none     &kp LS(LC(V))  &trans     &kp LC(D)  &kp LC(U)  &trans     &trans
+                                 &trans     &trans    &trans         &trans     &trans     &trans
             >;
         };
 
